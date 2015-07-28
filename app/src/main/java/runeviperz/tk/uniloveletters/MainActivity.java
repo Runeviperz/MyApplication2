@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         TextView lol = new TextView(this);
         lol.setText("Hello world");
         lol.setTextSize(420);
-        setContentView(xdddd);
+        setContentView(lol);
     }
 
     @Override
