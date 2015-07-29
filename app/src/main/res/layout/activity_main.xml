@@ -1,11 +1,396 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Uni Rant Letters"
+        android:id="@+id/tvTitle"
+        android:textSize="24dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
 
-</RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="te"
+                        android:padding="10dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/tvBody"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent"
+                    android:maxLines="4"
+                    android:text="@string/latin_test"
+                    android:ellipsize="end"
+                    android:padding="10dp"
+                    />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:text="go"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="te"
+                        android:padding="10dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/tvBody"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent"
+                    android:maxLines="4"
+                    android:text="@string/latin_test"
+                    android:ellipsize="end"
+                    android:padding="10dp"
+                    />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:text="go"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="te"
+                        android:padding="10dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/tvBody"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent"
+                    android:maxLines="4"
+                    android:text="@string/latin_test"
+                    android:ellipsize="end"
+                    android:padding="10dp"
+                    />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:text="go"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="te"
+                        android:padding="10dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/tvBody"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent"
+                    android:maxLines="4"
+                    android:text="@string/latin_test"
+                    android:ellipsize="end"
+                    android:padding="10dp"
+                    />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:text="go"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="te"
+                        android:padding="10dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/tvBody"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent"
+                    android:maxLines="4"
+                    android:text="@string/latin_test"
+                    android:ellipsize="end"
+                    android:padding="10dp"
+                    />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:text="go"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="te"
+                        android:padding="10dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/tvBody"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent"
+                    android:maxLines="4"
+                    android:text="@string/latin_test"
+                    android:ellipsize="end"
+                    android:padding="10dp"
+                    />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:text="go"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="te"
+                        android:padding="10dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/tvBody"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent"
+                    android:maxLines="4"
+                    android:text="@string/latin_test"
+                    android:ellipsize="end"
+                    android:padding="10dp"
+                    />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:text="go"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="23"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="te"
+                        android:padding="10dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/tvBody"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent"
+                    android:maxLines="4"
+                    android:text="@string/latin_test"
+                    android:ellipsize="end"
+                    android:padding="10dp"
+                    />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:text="go"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
